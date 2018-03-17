@@ -1,0 +1,27 @@
+<h1>Student Form</h1>
+<%=form_tag students_path do%>
+<!-- Failure/Error: fill_in 'first_name', with: "Margaery" -->
+<label for="">first_name:</label> <br>
+<%= text_field_tag :'first_name'%><br>
+<label for="">last_name:</label> <br>
+<%= text_field_tag :'last_name'%><br>
+<input type="submit" value="Submit Student">
+<%end%>
+
+
+
+<!--
+Build a functional Rails form using a form_tag
+
+Pass a route helper as the argument to a form_tag
+
+Pass an options hash with a method to a form_tag
+
+Use a text_field_tag and other form controls to create inputs
+
+Build a new action that renders a form that submits to the create action -->
+
+
+<!-- Draw a new and create route for the students resource
+
+Print out the student value to the view template page -->
